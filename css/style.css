@@ -11,6 +11,9 @@ html,body {
 
 body {
     position: absolute;
+    display: block;
+    text-align: center;
+    font-family: 'Enigma';
 }
 
 #background {
@@ -27,13 +30,15 @@ body {
 
 #content {
     position: relative;
-    font-family: 'Enigma';
+    display: block;
+    text-align: left;
     z-index: 100;
 }
 
 .first-block {
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 3px rgb(141, 141, 141);
+    text-shadow: 0.1em 0.1em 0.2em rgb(141, 141, 141);
+    position: relative;
 }
 
 .name {
@@ -45,18 +50,30 @@ body {
 }
 
 .header {
+    width: 100vw;
     font-size: 2em;
 }
 
 .second-block {
+    top: 5vh;
+    position: relative;
+    border-radius: 0.1em;
+    background-color: rgb(231, 120, 45);
+}
+
+.text {
+    width: 100vw;
+    padding: 0.2em 0em;
     background-color: rgb(231, 120, 45);
 }
 
 footer {
-    width: 50vw;
-    position: absolute;
-    left: 25vw;
-    bottom: -89vh;
-    text-align: center;
+    width: 100vw;
+    position: fixed;
+    display: block;
+    margin: auto;
+    bottom: 0;
+    border-radius: 0.2em;
+    padding: 0.4em;
     background-color: rgb(231, 120, 45);
 }
