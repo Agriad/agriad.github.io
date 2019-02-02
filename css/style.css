@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Enigma;
+    src: url(../font/Enigma__2.ttf);
+  }
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: absolute;
+}
+
+#background {
+    width: 100vw;
+    height: 100vh;
+    left: 0%;
+    top: 0%;
+    position: absolute;
+    background-image: url(../image/abstract-astro-astronomy-956999.jpg);
+    background-position: center center;
+    background-size: cover;
+    z-index: 0;
+}
+
+#content {
+    position: relative;
+    font-family: 'Enigma';
+    z-index: 100;
+}
+
+.first-block {
+    background-color: rgb(231, 120, 45);
+}
+
+.second-block {
+    background-color: rgb(231, 120, 45);
+}
+
+footer {
+    width: 50vw;
+    position: relative;
+    left: 25vw;
+    bottom: -75vh;
+    text-align: center;
+    background-color: rgb(231, 120, 45);
+}
