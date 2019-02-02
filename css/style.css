@@ -5,6 +5,7 @@
 
 html,body {
     margin: 0;
+    border: 0;
     padding: 0;
 }
 
@@ -31,7 +32,20 @@ body {
 }
 
 .first-block {
-    background-color: rgb(231, 120, 45);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px rgb(141, 141, 141);
+}
+
+.name {
+    font-size: 3em;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+.header {
+    font-size: 2em;
 }
 
 .second-block {
@@ -40,9 +54,9 @@ body {
 
 footer {
     width: 50vw;
-    position: relative;
+    position: absolute;
     left: 25vw;
-    bottom: -75vh;
+    bottom: -89vh;
     text-align: center;
     background-color: rgb(231, 120, 45);
 }
