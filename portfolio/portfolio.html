@@ -16,13 +16,14 @@
     </head>
 
     <body>
-        <div class="navigation-bar">
-            <a href="/portfolio.html">Portfolio</a>
-            <a href="/about_me.html">About Me</a>
-            <a href="/contact_me.html">Contact Me</a>
-            <a href="/credits.html">Credits</a>
-        </div>
+        <div id="navigation_bar"></div>
 
         <p>Portfolio</p>
     </body>
+
+    <script>
+        $(function() {
+            $("#navigation_bar").load("../tools/navigation_bar/navigation_bar.html");
+        });
+    </script>
 </html>
