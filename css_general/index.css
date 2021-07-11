@@ -1,0 +1,29 @@
+#index-name {
+    font-size: 5em;
+    margin: auto;
+    text-align: center;
+}
+
+#index-introduction {
+    margin: auto;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#index-button-div {
+    margin: auto;
+}
+
+#index-button a, a:link, a:visited{
+    background-color: #ffffff;
+    margin: auto;
+    font-size: 2.5em;
+    text-align: center;
+    width: 50%;
+}
+
+.index-text {
+    background-color: #ffffff;
+    opacity: 0.75;
+    margin: auto;
+}
