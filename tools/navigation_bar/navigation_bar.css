@@ -10,7 +10,10 @@ body {
     margin: 0%;
     border: 0%;
     padding: 0%;
+    top: 0%;
+    position: fixed;
     overflow-x: hidden;
+    overflow-y: hidden;
     display: table;
     float: right;
 }

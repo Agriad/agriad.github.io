@@ -10,3 +10,8 @@ body {
     background-image: url(../image_general/Blender-Beginner-Tutorial-with-filter.png);
     font-family: Garamond;
 }
+
+.content {
+    position: relative;
+    top: 6vh;
+}
