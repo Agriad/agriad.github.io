@@ -3,7 +3,12 @@ body {
     padding: 0%;
 }
 
-#placeholder {
-    background-color: blueviolet;
-    height: 500vh;
+.content {
+    background-color: #ffefcb;
+    font-size: 1.25em;
+    position: inherit;
+    margin: 18vh auto 0;
+    padding: 1em;
+    border-radius: 0.25em;
+    width: 75vw;
 }
