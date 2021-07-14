@@ -18,6 +18,11 @@ body {
     float: right;
 }
 
+#navigation-bar-name {
+    position: relative;
+    left: 1vw;
+}
+
 .navigation-bar-filler {
     width: 50%;
 }
