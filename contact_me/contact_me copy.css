@@ -1,0 +1,42 @@
+.content {
+    background-color: #ffefcb;
+    font-size: 1.25em;
+    position: relative;
+    margin: 14vh auto 0;
+    padding: 1em;
+    border-radius: 0.25em;
+    height: 50vh;
+    width: 50vw;
+}
+
+#logo-div {
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    background-color: #ffffff;
+    border-radius: 1em;
+    display: inline-block;
+}
+
+.logo:hover {
+    background-color: #dbdbdb;
+}
+
+#github {
+    margin-right: 2em;
+    padding: 2.5em;
+    height: 14vh;
+}
+
+#linked-in {
+    margin-left: 2em;
+    padding: 2.5em 1.4em 2.5em 2.5em;
+    height: 14vh;
+}
