@@ -7,8 +7,10 @@
     text-align: center;
 }
 
-.portfolio {
-    display: flexbox;
+#portfolio {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
@@ -16,10 +18,11 @@
 
 .card {
     background-color: #ffffff;
-    height: 50vh;
+    height: 55vh;
     width: 15vw;
     border-radius: 1em;
     margin: 1em;
+    order: 4;
 }
 
 .card:hover {
@@ -29,6 +32,8 @@
 
 .image {
     padding: 1em;
+    height: 25vh;
+    width: 13vw;
 }
 
 .separator {
