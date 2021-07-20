@@ -1,0 +1,41 @@
+.content {
+    background-color: #ffefcb;
+    width: 75%;
+    margin: 14vh auto 0;
+    padding: 1em;
+    border-radius: 0.25em;
+    text-align: center;
+}
+
+.portfolio {
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+    background-color: #ffffff;
+    height: 50vh;
+    width: 15vw;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+.card:hover {
+    transform: perspective(400px) rotatex(2deg);
+    box-shadow: 0em 1em 1em #777777;
+}
+
+.image {
+    padding: 1em;
+}
+
+.separator {
+    border-bottom: 0.2em solid #ffd1dc;
+}
+
+.description {
+    text-align: left;
+    padding: 1em;
+}
