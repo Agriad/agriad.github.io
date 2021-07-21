@@ -16,6 +16,11 @@
     align-items: flex-start;
 }
 
+.portfolio-link {
+    text-decoration: none;
+    color: inherit;
+}
+
 .card {
     background-color: #ffffff;
     height: 55vh;
