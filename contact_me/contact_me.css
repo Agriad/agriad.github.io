@@ -119,7 +119,7 @@
         margin: 1em;
         border-radius: 1em;
         position: relative;
-        /* display: inline-block; */
+        display: inline-block;
     }
 
     .logo:hover {
