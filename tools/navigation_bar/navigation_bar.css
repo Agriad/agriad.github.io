@@ -1,53 +1,167 @@
-body {
-    margin: 0%;
-    padding: 0%;
+@media only screen and (min-width: 1280px) {
+    body {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .navigation-bar {
+        background-color: #ffffff;
+        height: 6vh;
+        width: 100%;
+        margin: 0%;
+        border: 0%;
+        padding: 0%;
+        top: 0%;
+        position: fixed;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        display: table;
+        float: right;
+        z-index: 10000;
+    }
+    
+    #navigation-landing-page {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    #navigation-bar-name {
+        position: relative;
+        left: 1vw;
+    }
+    
+    .navigation-bar-filler {
+        width: 50%;
+    }
+    
+    .navigation-bar-topic {
+        font-family: Enigma, sans-serif;
+        background-color: #ffd1dc;
+        color: #000000;
+        text-decoration: none;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        line-height: normal;
+        height: 100%;
+        width: 5vw;
+        margin: 0vw;
+        padding: 0vw 1vw 0vw;
+    }
+    
+    .navigation-bar-topic:hover {
+        background-color: #ffefcb;
+    }
 }
 
-.navigation-bar {
-    background-color: #ffffff;
-    height: 6vh;
-    width: 100%;
-    margin: 0%;
-    border: 0%;
-    padding: 0%;
-    top: 0%;
-    position: fixed;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    display: table;
-    float: right;
-    z-index: 10000;
+@media only screen and (min-width: 767px) {
+    body {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .navigation-bar {
+        background-color: #ffffff;
+        height: 6vh;
+        width: 100%;
+        margin: 0%;
+        border: 0%;
+        padding: 0%;
+        top: 0%;
+        position: fixed;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        display: table;
+        float: right;
+        z-index: 10000;
+    }
+    
+    #navigation-landing-page {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    #navigation-bar-name {
+        position: relative;
+        left: 1vw;
+    }
+    
+    .navigation-bar-filler {
+        width: 50%;
+    }
+    
+    .navigation-bar-topic {
+        font-family: Enigma, sans-serif;
+        background-color: #ffd1dc;
+        color: #000000;
+        text-decoration: none;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        line-height: normal;
+        height: 100%;
+        width: 5vw;
+        margin: 0vw;
+        padding: 0vw 1vw 0vw;
+    }
+    
+    .navigation-bar-topic:hover {
+        background-color: #ffefcb;
+    }
 }
 
-#navigation-landing-page {
-    text-decoration: none;
-    color: inherit;
-}
-
-#navigation-bar-name {
-    position: relative;
-    left: 1vw;
-}
-
-.navigation-bar-filler {
-    width: 50%;
-}
-
-.navigation-bar-topic {
-    font-family: Enigma, sans-serif;
-    background-color: #ffd1dc;
-    color: #000000;
-    text-decoration: none;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    line-height: normal;
-    height: 100%;
-    width: 5vw;
-    margin: 0vw;
-    padding: 0vw 1vw 0vw;
-}
-
-.navigation-bar-topic:hover {
-    background-color: #ffefcb;
+@media only screen and (max-width: 767px) {
+    body {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .navigation-bar {
+        background-color: #ffffff;
+        height: 6vh;
+        width: 100%;
+        margin: 0%;
+        border: 0%;
+        padding: 0%;
+        top: 0%;
+        position: fixed;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        display: table;
+        float: right;
+        z-index: 10000;
+    }
+    
+    #navigation-landing-page {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    #navigation-bar-name {
+        position: relative;
+        left: 1vw;
+    }
+    
+    .navigation-bar-filler {
+        width: 50%;
+    }
+    
+    .navigation-bar-topic {
+        font-family: Enigma, sans-serif;
+        background-color: #ffd1dc;
+        color: #000000;
+        text-decoration: none;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        line-height: normal;
+        height: 100%;
+        width: 5vw;
+        margin: 0vw;
+        padding: 0vw 1vw 0vw;
+    }
+    
+    .navigation-bar-topic:hover {
+        background-color: #ffefcb;
+    }
 }

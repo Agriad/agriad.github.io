@@ -1,55 +1,173 @@
-.content {
-    background-color: #ffefcb;
-    width: 75%;
-    margin: 14vh auto 14vh;
-    padding: 1em;
-    border-radius: 0.25em;
-    text-align: center;
+@media only screen and (min-width: 1280px) {
+    .content {
+        background-color: #ffefcb;
+        width: 75%;
+        margin: 14vh auto 14vh;
+        padding: 1em;
+        border-radius: 0.25em;
+        text-align: center;
+    }
+
+    #portfolio {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .portfolio-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .card {
+        background-color: #ffffff;
+        height: 55vh;
+        width: 15vw;
+        border-radius: 1em;
+        margin: 1em;
+        order: 4;
+    }
+
+    .card:hover {
+        transform: perspective(400px) rotatex(2deg);
+        box-shadow: 0em 1em 1em #777777;
+    }
+
+    .image {
+        padding: 1em;
+        height: 25vh;
+        width: 13vw;
+    }
+
+    .separator {
+        border-bottom: 0.2em solid #ffd1dc;
+    }
+
+    .title {
+        font-family: Enigma, sans-serif;
+    }
+
+    .description {
+        text-align: left;
+        padding: 1em;
+    }
 }
 
-#portfolio {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
+@media only screen and (min-width: 767px) {
+    .content {
+        background-color: #ffefcb;
+        width: 75%;
+        margin: 14vh auto 14vh;
+        padding: 1em;
+        border-radius: 0.25em;
+        text-align: center;
+    }
+
+    #portfolio {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .portfolio-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .card {
+        background-color: #ffffff;
+        height: 55vh;
+        width: 15vw;
+        border-radius: 1em;
+        margin: 1em;
+        order: 4;
+    }
+
+    .card:hover {
+        transform: perspective(400px) rotatex(2deg);
+        box-shadow: 0em 1em 1em #777777;
+    }
+
+    .image {
+        padding: 1em;
+        height: 25vh;
+        width: 13vw;
+    }
+
+    .separator {
+        border-bottom: 0.2em solid #ffd1dc;
+    }
+
+    .title {
+        font-family: Enigma, sans-serif;
+    }
+
+    .description {
+        text-align: left;
+        padding: 1em;
+    }
 }
 
-.portfolio-link {
-    text-decoration: none;
-    color: inherit;
-}
+@media only screen and (max-width: 767px) {
+    .content {
+        background-color: #ffefcb;
+        width: 75%;
+        margin: 14vh auto 14vh;
+        padding: 1em;
+        border-radius: 0.25em;
+        text-align: center;
+    }
 
-.card {
-    background-color: #ffffff;
-    height: 55vh;
-    width: 15vw;
-    border-radius: 1em;
-    margin: 1em;
-    order: 4;
-}
+    #portfolio {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
 
-.card:hover {
-    transform: perspective(400px) rotatex(2deg);
-    box-shadow: 0em 1em 1em #777777;
-}
+    .portfolio-link {
+        text-decoration: none;
+        color: inherit;
+    }
 
-.image {
-    padding: 1em;
-    height: 25vh;
-    width: 13vw;
-}
+    .card {
+        background-color: #ffffff;
+        height: 55vh;
+        width: 15vw;
+        border-radius: 1em;
+        margin: 1em;
+        order: 4;
+    }
 
-.separator {
-    border-bottom: 0.2em solid #ffd1dc;
-}
+    .card:hover {
+        transform: perspective(400px) rotatex(2deg);
+        box-shadow: 0em 1em 1em #777777;
+    }
 
-.title {
-    font-family: Enigma, sans-serif;
-}
+    .image {
+        padding: 1em;
+        height: 25vh;
+        width: 13vw;
+    }
 
-.description {
-    text-align: left;
-    padding: 1em;
+    .separator {
+        border-bottom: 0.2em solid #ffd1dc;
+    }
+
+    .title {
+        font-family: Enigma, sans-serif;
+    }
+
+    .description {
+        text-align: left;
+        padding: 1em;
+    }
 }
