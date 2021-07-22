@@ -111,6 +111,8 @@
     .description {
         text-align: left;
         padding: 1em;
+        height: 9vh;
+        overflow-y: auto;
     }
 }
 
