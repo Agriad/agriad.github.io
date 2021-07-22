@@ -1,0 +1,13 @@
+.content {
+    background-color: #ffefcb;
+    width: 75%;
+    margin: 14vh auto 0;
+    padding: 1em;
+    border-radius: 0.25em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
