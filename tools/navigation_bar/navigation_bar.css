@@ -29,6 +29,7 @@ body {
 }
 
 .navigation-bar-topic {
+    font-family: Enigma, sans-serif;
     background-color: #ffd1dc;
     color: #000000;
     text-decoration: none;

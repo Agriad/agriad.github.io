@@ -16,6 +16,7 @@
 }
 
 #index-name {
+    font-family: Enigma, sans-serif;
     font-size: 5em;
     margin: auto;
     text-align: center;
@@ -37,8 +38,9 @@
 #index-button a,
 a:link,
 a:visited {
+    font-family: Enigma, sans-serif;
     color: inherit;
-    background-color: #ffffff;
+    background-color: #ebebeb;
     padding: 0.05em 0.15em 0.05em;
     border: medium solid #000000;
     border-radius: 0.25em;

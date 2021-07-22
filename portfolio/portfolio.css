@@ -45,6 +45,10 @@
     border-bottom: 0.2em solid #ffd1dc;
 }
 
+.title {
+    font-family: Enigma, sans-serif;
+}
+
 .description {
     text-align: left;
     padding: 1em;

@@ -1,7 +1,6 @@
 @font-face {
     font-family: Enigma;
-    src: url(../font_general/Enigma__2.ttf);
-
+    src: url(../font_general/Enigma/Enigma__2.ttf);
     font-family: Garamond;
     src: url(../font_general/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
 }
