@@ -56,7 +56,7 @@
     }
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (max-width: 1280px) {
     body {
         margin: 0%;
         padding: 0%;
@@ -112,7 +112,7 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media (pointer: coarse) {
     body {
         margin: 0%;
         padding: 0%;

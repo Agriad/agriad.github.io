@@ -60,7 +60,7 @@
     }
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (max-width: 1280px) {
     #index-text-div {
         background-color: #ffffff;
         opacity: 0.75;
@@ -122,7 +122,7 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media (pointer: coarse) {
     #index-text-div {
         background-color: #ffffff;
         opacity: 0.75;
