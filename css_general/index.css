@@ -1,59 +1,185 @@
-#index-text-div {
-    background-color: #ffffff;
-    opacity: 0.75;
-    border-radius: 0.25em;
-    margin: auto;
-    margin-bottom: 35vh;
-    padding-bottom: 1em;
+@media only screen and (pointer: fine) and (min-width: 1280px) {
+    #index-text-div {
+        background-color: #ffffff;
+        opacity: 0.75;
+        border-radius: 0.25em;
+        margin: auto;
+        margin-bottom: 35vh;
+        padding-bottom: 1em;
+    }
+
+    #index-text-div div:hover {
+        background-color: #000000;
+    }
+
+    #index-text-div div:hover {
+        background-color: #000000;
+    }
+
+    #index-name {
+        font-family: Enigma, sans-serif;
+        font-size: 5em;
+        margin: auto;
+        text-align: center;
+    }
+
+    #index-introduction {
+        margin: auto;
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    #index-button-div {
+        margin: auto;
+        text-align: center;
+        position: relative;
+        z-index: 0;
+    }
+
+    #index-button a,
+    a:link,
+    a:visited {
+        font-family: Enigma, sans-serif;
+        color: inherit;
+        background-color: #ebebeb;
+        position: relative;
+        display: block;
+        padding: 0.05em 0.15em 0.05em;
+        border: medium solid #000000;
+        border-radius: 0.25em;
+        margin: auto;
+        font-size: 2.5em;
+        text-align: center;
+        text-decoration: none;
+        width: 15vw;
+        z-index: 50;
+    }
+
+    #index-button:hover {
+        background-color: #dbdbdb;
+    }
 }
 
-#index-text-div div:hover {
-    background-color: #000000;
+@media only screen and (pointer: fine) and (max-width: 1280px) {
+    #index-text-div {
+        background-color: #ffffff;
+        opacity: 0.75;
+        border-radius: 0.25em;
+        margin: auto;
+        margin-bottom: 35vh;
+        padding-bottom: 1em;
+    }
+
+    #index-text-div div:hover {
+        background-color: #000000;
+    }
+
+    #index-text-div div:hover {
+        background-color: #000000;
+    }
+
+    #index-name {
+        font-family: Enigma, sans-serif;
+        font-size: 5em;
+        margin: auto;
+        text-align: center;
+    }
+
+    #index-introduction {
+        margin: auto;
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    #index-button-div {
+        margin: auto;
+        text-align: center;
+        position: relative;
+        z-index: 0;
+    }
+
+    #index-button a,
+    a:link,
+    a:visited {
+        font-family: Enigma, sans-serif;
+        color: inherit;
+        background-color: #ebebeb;
+        position: relative;
+        display: block;
+        padding: 0.05em 0.15em 0.05em;
+        border: medium solid #000000;
+        border-radius: 0.25em;
+        margin: auto;
+        font-size: 2.5em;
+        text-align: center;
+        text-decoration: none;
+        width: 15vw;
+        z-index: 50;
+    }
+
+    #index-button:hover {
+        background-color: #dbdbdb;
+    }
 }
 
-#index-text-div div:hover {
-    background-color: #000000;
-}
+@media (pointer: coarse) {
+    #index-text-div {
+        background-color: #ffffff;
+        opacity: 0.75;
+        border-radius: 0.25em;
+        margin: auto;
+        margin-bottom: 35vh;
+        padding-bottom: 1em;
+    }
 
-#index-name {
-    font-family: Enigma, sans-serif;
-    font-size: 5em;
-    margin: auto;
-    text-align: center;
-}
+    #index-text-div div:hover {
+        background-color: #000000;
+    }
 
-#index-introduction {
-    margin: auto;
-    font-size: 2.5em;
-    text-align: center;
-}
+    #index-text-div div:hover {
+        background-color: #000000;
+    }
 
-#index-button-div {
-    margin: auto;
-    text-align: center;
-    position: relative;
-    z-index: 0;
-}
+    #index-name {
+        font-family: Enigma, sans-serif;
+        font-size: 5em;
+        margin: auto;
+        text-align: center;
+    }
 
-#index-button a,
-a:link,
-a:visited {
-    font-family: Enigma, sans-serif;
-    color: inherit;
-    background-color: #ebebeb;
-    position: relative;
-    display: block;
-    padding: 0.05em 0.15em 0.05em;
-    border: medium solid #000000;
-    border-radius: 0.25em;
-    margin: auto;
-    font-size: 2.5em;
-    text-align: center;
-    text-decoration: none;
-    width: 15vw;
-    z-index: 50;
-}
+    #index-introduction {
+        margin: auto;
+        font-size: 2.5em;
+        text-align: center;
+    }
 
-#index-button:hover {
-    background-color: #dbdbdb;
+    #index-button-div {
+        margin: auto;
+        text-align: center;
+        position: relative;
+        z-index: 0;
+    }
+
+    #index-button a,
+    a:link,
+    a:visited {
+        font-family: Enigma, sans-serif;
+        color: inherit;
+        background-color: #ebebeb;
+        position: relative;
+        display: block;
+        padding: 0.05em 0.15em 0.05em;
+        border: medium solid #000000;
+        border-radius: 0.25em;
+        margin: auto;
+        font-size: 3.5em;
+        text-align: center;
+        text-decoration: none;
+        width: 35vw;
+        z-index: 50;
+    }
+
+    #index-button:hover {
+        background-color: #dbdbdb;
+    }
 }
