@@ -19,6 +19,11 @@ body {
     z-index: 10000;
 }
 
+#navigation-landing-page {
+    text-decoration: none;
+    color: inherit;
+}
+
 #navigation-bar-name {
     position: relative;
     left: 1vw;
