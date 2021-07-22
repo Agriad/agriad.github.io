@@ -23,6 +23,8 @@
     #navigation-landing-page {
         text-decoration: none;
         color: inherit;
+        display: table-cell;
+        vertical-align: middle;
     }
     
     #navigation-bar-name {
