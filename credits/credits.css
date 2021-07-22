@@ -7,12 +7,12 @@
     text-align: center;
 }
 
-a {
+.credits-link {
     text-decoration: none;
     color: inherit;
 }
 
-p {
+.credits-text {
     background-color: #ffffff;
     padding: 1em;
     border-radius: 0.25em;
