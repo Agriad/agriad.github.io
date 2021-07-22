@@ -16,6 +16,7 @@ body {
     overflow-y: hidden;
     display: table;
     float: right;
+    z-index: 10000;
 }
 
 #navigation-bar-name {
